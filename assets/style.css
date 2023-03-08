@@ -161,14 +161,16 @@ img{
      position: relative;
 }
 
-.absolute{
+.img-about i{
      position: absolute;
-}
-
-.quote-size{
-     right: 130px;
+     right: 0px;
      top: 0;
      font-size: 60px;
+     color: #9593e6;
+}
+
+.inline-block{
+     display: inline-block;
 }
 
 .padding-right-10{
