@@ -1,0 +1,312 @@
+.flex{
+     display: flex;
+}
+
+.wrap{
+     flex-wrap: wrap;
+}
+
+.column{
+     flex-direction: column;
+}
+
+.space-between{
+     justify-content: space-between;
+}
+
+.align-items-center{
+     align-items: center;
+}
+
+.padding-bottom-20{
+     padding-bottom: 20px;
+}
+
+.bg-blue{
+     background-color: dodgerblue;
+     color: white;
+}
+
+.bg-purple{
+     background-color: #9593e6;
+}
+
+.bg-white{
+     background-color: white;
+}
+
+.bg-black{
+     background-color: rgb(44, 44, 44);
+}
+
+.color-blue{
+     color: dodgerblue;
+}
+
+.color-white{
+     color: white;
+}
+
+.color-purple{
+     color: #9593e6;
+}
+
+.color-orange{
+     color: orange;
+}
+
+.text-align{
+     text-align: center;
+}
+
+.i-size{
+     font-size: 50px;
+}
+
+nav{
+     background-color: dodgerblue ;
+     color: white;
+     padding: 10px 15px;
+}
+
+.container{
+     margin: 30px 25px;
+}
+
+.container2{
+     margin: 0 30px;
+     padding: 40px 0
+}
+
+.card1{
+     background-color: #B0E2FF;
+     border-radius: 10px;
+     padding-top: 20px;
+     padding-left: 15px;
+     padding-right: 15px;
+     margin-bottom: 20px;
+}
+
+.img-phone{
+     display: block;
+     width: 60%;
+     margin: auto;
+     margin-top: 20px;
+
+}
+
+.card{
+     background-color: #B0E2FF;
+     border-radius: 10px;
+     padding: 20px 15px;
+     margin-bottom: 20px;
+
+}
+
+.button{
+     border-radius: 15px;
+     padding: 5px 30px;
+}
+
+.card p{
+     color: grey;
+}
+
+img{
+     width: 100%;
+}
+
+.card-planning{
+     background-color: white;
+     border-radius: 40px;
+     padding: 20px 15px;
+     margin-bottom: 20px;
+}
+
+.corsivo{
+     font-style: italic;
+}
+
+.button-arrow{
+     border-radius: 100%;
+     padding: 15px 17px;
+} 
+
+.card-testimonial{
+     background-color: #9593e6;
+     border-radius: 40px;
+     padding: 20px 15px;
+     margin-bottom: 20px;
+}
+
+.img-border-radius{
+     border-radius: 50%;
+     width: 200px;
+     height: 200px;
+     object-fit: cover;
+}
+
+.card-benefits{
+     background-color: white;
+     border-radius: 10px;
+     padding: 20px 15px;
+     margin-bottom: 20px;
+}
+
+.font-size-40{
+     font-size: 40px;
+}
+
+.relative{
+     position: relative;
+}
+
+.absolute{
+     position: absolute;
+}
+
+.quote-size{
+     right: 130px;
+     top: 0;
+     font-size: 60px;
+}
+
+.padding-right-10{
+     padding-right: 10px;
+}
+
+.padding-top-20{
+     padding-top: 20px;
+}
+
+.button-big{
+     border-radius: 20px;
+     padding: 10px 40px;
+}
+
+.nav-list{
+     display: none;
+}
+
+.line-height{
+     line-height: 2;
+}
+
+
+@media screen and (min-width: 768px){
+     .img-phone{
+          width: 60%;
+          margin-left: 10px;
+          margin-top: 20px;
+     }
+
+     .card{
+          flex-basis: calc(100% / 3 - 2%);
+          margin: 1%;
+     }
+
+     .card1{
+          flex-basis: calc(66.66% - 2%);
+          margin: 1%;
+
+     }
+
+     .card-testimonial{
+          display: flex;
+          align-items: center;
+          text-align: left;
+     }
+
+     .testo-testimonial{
+          margin-left: 20px;
+     }
+
+     .card-benefits{
+          flex-basis: calc(100% / 2 - 2%);
+          margin: 1%;
+     }
+     
+     .container-about{
+          display: flex;
+     }
+
+     .testo-about{
+          flex-basis: 60%;
+          margin-right: 30px;
+     }
+
+     .img-about{
+          flex-basis: 40%;
+          
+     }
+
+     .color-black{
+          color: black;
+     }
+
+     .nav-list{
+          display: none;
+     }
+}
+
+
+@media screen and (min-width: 992px){
+
+     nav, .section{
+          width: 80%;
+          margin: auto;
+     }
+
+     .section2{
+          width: 40%;
+          margin: auto;
+
+     }
+
+     .menu{
+          display: none;
+     }
+
+     .nav-list{
+          display: block;
+     }
+
+     ul li, ul li a{
+          display: inline-block;
+          list-style-type: none;
+          text-decoration: none;
+          margin: 0 5px;
+          color: white;
+     }
+
+     .card1{
+          display: flex;
+     }
+
+     .img-phone{
+          margin-left: 10px;
+     }
+
+     .section-planning{
+          flex-wrap: nowrap;
+          padding-top: 50px;
+     }
+
+     .col{
+          flex-basis: 50%;
+     }
+
+     .card-planning{
+         align-self: flex-end;
+         margin-left: 20px;
+     }
+
+     .card-planning img{
+          width: 40%;
+     }
+
+     .card-benefits{
+          flex-basis: calc(100% / 3 - 2%);
+          margin: 1%;
+     }
+}
